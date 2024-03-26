@@ -1,0 +1,55 @@
+*{
+	padding:0px;
+	margin-top:0px;
+	box-sizing:border-box;
+}
+body{
+	height:600px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+}
+#pass{
+	height:400px;
+	width:350px;
+	background:#60a3bc;
+	padding:60px;
+	border:1px solid #0a3d62;	
+	border-radius:10px;
+
+}
+
+h1{
+	text-align:center;
+	color:#0652DD;
+}
+legend{
+	padding-bottom:10px;
+	color:#0c2461;
+	font-weight:bolder;
+
+}
+input{
+	padding:10px;
+	margin-bottom:10px;
+	border:none;
+	
+}
+#button{
+	display:flex;
+	
+}
+#show,#show1{
+	border:none;
+	background:none;
+	position:relative;
+	right:25px;
+}
+#hide,#hide2{
+	border:none;
+	background:none;
+	display:none;
+	position:relative;
+	right:25px;
+}
